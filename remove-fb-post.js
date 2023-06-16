@@ -1,6 +1,7 @@
 var myFunc01 = function() {
+    var rep = 10; //for loop
     var i = 0;
-    while (i < 10) {
+    while (i < rep) {
         (function(i) {
             setTimeout(function() {
                 setTimeout(function() {
